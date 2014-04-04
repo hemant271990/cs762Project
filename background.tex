@@ -1,0 +1,17 @@
+We have seen before in lecture notes that canonical ordering is a useful tool for graph drawing, we used it to prove some planar graph properties e.g. Splitting to three trees, Visibility representation.
+A quick recall about the canonical ordering: 
+\textit{Its a vertex order $v_1,v_2,...,v_n$ of a triangulated planar graph where, $v_1v_2v_n$ is an outer face and all other vertices have at least two predecessors and at least one successor.}
+Canonical order exist for any 3-connected planar graph \cite{kant}, in these notes we extend the canonical ordering for non-planar graphs and make them applicable for an arbitrary 3-connected graphs.
+
+The idea of canonical orderings was given much before, in 1971 by Lee F. Mondshein at M.I.T. in his PhD-thesis \cite{mond}.
+Mondshein proposed a sequence that generalizes canonical orderings to non-planar graphs.
+Mondshein's sequence was later, in 1988 were independently found by Cheriyan and Maheshwari \cite{cheriyan} under the concept of \textit{non-separating ear decompositions}.
+Complexity of calculating Mondshein sequences, is an intriguing question.
+Mondshein himself gave an algorithm with running time of $O(m^2)$.
+Cheriyan in his work achieved a running time of $O(nm)$ by using Tutte's theorem that proves the existence of non-separating cycles in 3-connected graphs \cite{tutte1963draw}.
+The challenge of achieving a sub-quadratic time for calculating Mondshein sequences was still open.
+The work by Jens M. Schmidt \cite{Schmidt13a} presents the first algorithm that computes a Mondshein sequence in $O(m)$ time and space, and this will be the major focus of these notes.
+The motivation for computing Mondshein sequence in sub-quadratic time stems around three main applications of it, that can now be solved in linear-time.
+First, computing three independent spanning trees in a 3-connected graph in linear time.
+Second, linear time processing of the output-sensitive data structure by Di Battista et. al. \cite{Battista} that reports three internally disjoint paths between any given vertex pair.
+Third, a simple linear-time planarity testing.

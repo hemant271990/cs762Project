@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{bg}
+D.~Barnette.
+\newblock On steinitz's theorem concerning convex 3-polytopes and on some
+  properties of planar graphs.
+\newblock In G.~Chartrand and S.~Kapoor, editors, {\em The Many Facets of Graph
+  Theory}, volume 110 of {\em Lecture Notes in Mathematics}, pages 27--40.
+  Springer Berlin Heidelberg, 1969.
+
+\bibitem{cheriyan}
+J.~Cheriyan and S.~Maheshwari.
+\newblock Finding nonseparating induced cycles and independent spanning trees
+  in 3-connected graphs.
+\newblock {\em Journal of Algorithms}, 9(4):507 -- 537, 1988.
+
+\bibitem{Battista}
+G.~Di~Battista, R.~Tamassia, and L.~Vismara.
+\newblock Output-sensitive reporting of disjoint paths.
+\newblock {\em Algorithmica}, 23(4):302--340, 1999.
+
+\bibitem{kant}
+G.~Kant.
+\newblock Drawing planar graphs using the canonical ordering.
+\newblock {\em Algorithmica}, 16(1):4--32, 1996.
+
+\bibitem{mond}
+L.~Mondshein and M.~I. O. T. L.~L. LAB.
+\newblock {\em Combinatorial Ordering and the Geometric Embedding of Graphs}.
+\newblock Defense Technical Information Center, 1971.
+
+\bibitem{bgLinear}
+J.~M. Schmidt.
+\newblock Contractions, removals, and certifying 3-connectivity in linear time.
+\newblock {\em SIAM J. Comput.}, 42(2):494--535, 2013.
+
+\bibitem{Schmidt13a}
+J.~M. Schmidt.
+\newblock The mondshein sequence.
+\newblock {\em CoRR}, abs/1311.0750, 2013.
+
+\bibitem{tutte1963draw}
+W.~Tutte.
+\newblock How to draw a graph.
+\newblock {\em Proceedings of the London Mathematical Society}, 3(1):743--767,
+  1963.
+
+\bibitem{tutteConnectivity}
+W.~Tutte.
+\newblock Connectivity in graphs.
+\newblock In {\em Mathematical Expositions}, volume~15. University of Toronto
+  Press, 1966.
+
+\end{thebibliography}

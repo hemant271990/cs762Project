@@ -1,0 +1,216 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.18)  3 APR 2014 19:57
+entering extended mode
+ %&-line parsing enabled.
+**project.tex
+(./project.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip43
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks15
+\thm@bodyfont=\toks16
+\thm@headfont=\toks17
+\thm@notefont=\toks18
+\thm@headpunct=\toks19
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks20
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks21
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+)
+\c@thm=\count88
+\c@defn=\count89
+\c@exmp=\count90
+ (./project.aux)
+\openout1 = `project.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count91
+\scratchdimen=\dimen105
+\scratchbox=\box26
+\nofMPsegments=\count92
+\nofMParguments=\count93
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count94
+\MPscratchDim=\dimen106
+\MPnumerator=\count95
+\everyMPtoPDFconversion=\toks23
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+ (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./background.tex) (./earM
+ond.tex
+<earDecomp.png, id=7, 201.22235pt x 185.6347pt>
+File: earDecomp.png Graphic file (type png)
+ <use earDecomp.png> [1]
+[2 <./earDecomp.png (PNG copy)>]) (./computingMond.tex
+<bg.png, id=22, 1534.67471pt x 259.32176pt>
+File: bg.png Graphic file (type png)
+ <use bg.png> [3]
+<bgEg.png, id=26, 1412.80765pt x 368.43529pt>
+File: bgEg.png Graphic file (type png)
+ <use bgEg.png> [4 <./bg.png (PNG copy)> <./bgEg.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 72.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 93.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 93.
+
+[5]
+Overfull \hbox (6.25778pt too wide) in paragraph at lines 102--105
+\OT1/cmr/m/it/12 If ab = ru, add new ear $\OML/cmm/m/it/12 wv \OMS/cmsy/m/n/12 
+[ \OML/cmm/m/it/12 vu$ \OT1/cmr/m/it/12 di-rectly af-ter $\OML/cmm/m/it/12 P[]$
+ \OT1/cmr/m/it/12 and re-place $\OML/cmm/m/it/12 P[] \OT1/cmr/m/n/12 =
+ []
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 106.
+
+
+Overfull \hbox (8.50487pt too wide) in paragraph at lines 105--107
+\OT1/cmr/m/it/12 Let $\OML/cmm/m/it/12 Z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 a
+v \OMS/cmsy/m/n/12 [ \OML/cmm/m/it/12 vw \OMS/cmsy/m/n/12 [ \OML/cmm/m/it/12 P[
+]\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 a[]; a\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/it/12 an
+d $\OML/cmm/m/it/12 Z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 P[]\OT1/cmr/m/n/12 [
+\OML/cmm/m/it/12 a; b[]\OT1/cmr/m/n/12 ]$\OT1/cmr/m/it/12 . Ap-ply $\OML/cmm/m/
+it/12 M\OT1/cmr/m/n/12 1(\OML/cmm/m/it/12 Z[]; Z[]; \OT1/cmr/m/n/12 ^^\)$
+ []
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 114.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 117.
+
+
+LaTeX Warning: Command \o invalid in math mode on input line 126.
+
+[6]
+
+LaTeX Warning: Command \o invalid in math mode on input line 137.
+
+<algoCases.png, id=37, 1067.04529pt x 745.37294pt>
+File: algoCases.png Graphic file (type png)
+ <use algoCases.png>)
+(./proof.tex [7 <./algoCases.png (PNG copy)>]
+
+LaTeX Warning: Command \o invalid in math mode on input line 45.
+
+[8]) (./project.bbl) [9] (./project.aux) ) 
+Here is how much of TeX's memory you used:
+ 1430 strings out of 493848
+ 17189 string characters out of 1152823
+ 70368 words of memory out of 3000000
+ 4706 multiletter control sequences out of 15000+50000
+ 12750 words of font info for 49 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 25i,9n,22p,317b,447s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.
+pfb>
+Output written on project.pdf (10 pages, 335039 bytes).
+PDF statistics:
+ 79 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

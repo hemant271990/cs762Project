@@ -1,0 +1,70 @@
+\textbf{Completeness} - We will first prove that Lemma \ref{lem:cases} covers all the possible cases of BG-operations.
+Case (1) is simple and cannot have further subdivisions in the main case.
+Case (2), is an edge-vertex-operation.
+W.l.o.g we can choose either vertex $a$ or $b$ to look all possible relations with $birth(ab)$, say $b$.
+Observe, only two possibilities, either $b$ will be an inner vertex of $P_{birth(ab)}$ or not, hence $birth(b) < birth(ab)$ or $birth(b) = birth(ab)$.
+Third vertex in Case (2) is $w$, it can either be in $P_{birth(b)}$ or in $G_{birth(b)} - P_{birth(b)}$ or in $\overline{G_{birth(b)}}$, and hence three cases under (2a) and (2b).
+See \cite{Schmidt13a} for completeness of case (3).
+
+\medskip
+\textbf{D' is an ear decomposition} - As the newly added ears in all the cases are paths, it is sufficient to show that only the first ear, $P_0'$ in D' is a cycle.
+The only cases which can modify $P_0$ are (2ai), (2aiii), (2bi), (2biiic), and some cases in (3) (see \cite{Schmidt13a}).
+All of these cases can subdivide an edge in $P_0$ by a new vertex and replace a path in $P_0$ with a shorter one having the same endpoints.
+This will still maintain a cycle in D'.
+Hence D' is an ear decomposition.
+
+\medskip
+\textbf{D' avoids $ru$ ($rv$ or $rw$ if applicable) } - Recall Def \ref{def:mond}, to prove this we need show that D' satisfy conditions (1) and (2) of Def. \ref{def:mond}.
+To prove condition (1), it is sufficient to consider cases where $P_0$ is different from $P_0'$, i.e. cases (2aiii), (2biiic) and some in case (3).
+In all the cases, a path of $P_0$ that does not contain $r$ has been modified, therefore $r \in P_0'$ also.
+This shows condition (1) is satisfied.
+
+To prove condition (2), first consider the vertex-vertex-addition: only a short ear is added at the end, hence satisfied.
+Now consider a edge-vertex-addition, first consider the case where $v$ does not subdivide $ru$.
+$P_{birth(u)}$ is the last long ear in D, therefore $birth(u) \geq birth(b)$.
+If $birth(u) > birth(b)$, that means change is in $P_{birth(b)}$ and $P_{birth(u)}$ is unchanged and is still a last long ear in D'.
+Thus, condition (2) satisfied for this case.
+
+If $birth(u) = birth(b)$, and as $P_{birth(b)}$ has $b$ as inner vertex, it is long; this implies $b=u$ as $u$ is the only inner vertex of $P_{birth(u)}$.
+Now it will depend if $a \in P_{birth(b)}$, $a$ must be a neighbor of the inner vertex $b=u$ and $birth(ab) = birth(b)$ follows and also $w \in G_{birth(b)}$, because we are at the last ear.
+This means we are in case (2aii) or (2aiii).
+In both these cases $Z_2$ (the last long ear) contains exactly $b=u$ as the inner vertex and does not contain $ru$, hence condition (2) satisfied.
+If $a \notin P_{birth(b)}$, $birth(a) < birth(b) < birth(ab)$ and again $w \in G_{birth(b)}$, therefore we are in case (2biiA) with $a \neq r$.
+See that in this case $P_{birth(b)}$ remains unchanged and no long ear is added after $P_{birth(b)}$, hence condition (2) satisfied.
+
+Now lets assume that $v$ subdivides $ru$.
+This mean $a=r$ and $b=u$ with $birth(a) < birth(b)$, as $r \in P_0$ and $u \notin P_0$.
+Also, as D satisfies condition (2), it cannot have $ab=ru$ in its last long hear, hence, is itself a short ear.
+Also $w \in G_{birth(b)}$, hence we are in case (2biiA) with $ab = ru$.
+In this ear $wv \cup vb$ is added as last long ear and $av$ is the new avoided edge of D', hence condition (2) satisfied.
+
+See \cite{Schmidt13a} for edge-edge-addition correctness.
+
+\medskip
+\textbf{D' is non-separating} - Consider $D' = (P_0', P_1', ... ,P_{k+1}')$ and let $z$ be any inner vertex of $P_i'$.
+It suffices to prove that $z$ has a neighbor in $\overline{G_i'} \neq \o$.
+First consider the vertex-vertex-addition: it only adds a short ear at the end, hence the configuration of all long ears remains identical in D and D'.
+Given that D is non-separating, D' is also non-separating.
+
+Now consider a edge-vertex-addition.
+We will see an overview of the proof, due to space constraints.
+Observe that $z=v$ is the only new inner vertex possible in D', compared to D.
+It is sufficient to show that $z=v$ has a neighbor in $\overline{G_i'}$.
+Table \ref{tab:neighbors} shows the neighbors of $z=v$ in $\overline{G_i'}$ for all the sub-cases in case (2).
+
+
+\begin{table} \label{tab:neighbors}
+  \centering  
+  \resizebox{\linewidth}{!}{
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}  \hline
+         & (2ai) & (2aii) & (2aiii) & (2bi) & (2biiA) & (2biiB) & (2biiiA) & (2biiiB) & (2biiiC) & (2biiiD)	\\ \hline
+	Neighbor of v & w & b & a or b & w & b & b & a or b & w & $inner(Z) \cap \{a,b,w\}$ & b or w \\ \hline
+    \end{tabular}}
+    \caption{Neighbors of $v \in inner(P_i')$ in $\overline{G_i'}$}
+  \end{table}
+
+
+\medskip
+
+This ends the proof of Lemma \ref{lem:cases}.
+The paper \cite{Schmidt13a} presents the Case (3) and its proof in more detail, and also presents 3 applications which can now be solved in linear time, because Mondshein sequence can be calculated in linear time. Due to space constraints we conclude these notes here.

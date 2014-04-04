@@ -1,0 +1,45 @@
+\documentclass[12pt]{article}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{amsthm,amsfonts,amssymb,amsthm}
+
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem*{cor}{Corollary}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{exmp}{Example}
+
+
+\begin{document}
+
+\begin{titlepage}
+\title{Computing Mondshein Sequence in Linear Time}
+\author{Hemant Saxena}
+\date{\today}
+\maketitle
+\begin{center}
+University of Waterloo \\
+CS762 - Write Project
+\end{center}
+\end{titlepage}
+
+
+\section{Background} \label{sec:background}
+\input{background}
+
+\section{Ear Decomposition and Mondshein sequence} \label{sec:earMond}
+\input{earMond}
+
+\section{Computing a Mondshein Sequence} \label{sec:computingMond}
+\input{computingMond}
+
+\section{Proof of Lemma \ref{lem:cases}} \label{sec:proof}
+\input{proof}
+
+\bibliographystyle{abbrv}
+\bibliography{project}
+
+\end{document}
